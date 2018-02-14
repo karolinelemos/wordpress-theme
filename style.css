@@ -1,0 +1,205 @@
+/*
+Theme Name: Procompi
+Author: Marcos marcondes
+Description: Tema desenvolvido para Procompi
+Version: 1.0
+*/
+body, h2{
+	font-family: 'latoregular';
+}
+.header{
+	text-align: center;
+	background: #fff;
+}
+.header a{
+	width: 230px;
+	display: inline-block;
+	padding: 25px 0;
+	font-size: 0;
+}
+.header a h1{
+	font-size: 0;
+}
+#section-1, #section-4{
+	padding: 130px 0;
+	display: block;
+	background-size: cover;
+}
+#section-1 h2, #section-4 h2{
+	font-size: 22px;
+	font-family: 'latoregular';
+	text-transform: uppercase;
+	color: #00ad68;
+}
+#section-1 p, #section-4 p{
+	font-family: 'latoregular';
+	color: #fff;
+}
+#section-2{
+	padding: 100px 0;
+	display: block;
+	background-size: cover;
+}
+#section-2 .box-center{
+	width: 100%;
+	padding: 35px 70px;
+	background: #234C5A;
+	color: #fff;
+}
+#section-2 .box-center h2{
+	font-size: 22px;
+	text-transform: uppercase;
+}
+#section-3{
+	padding: 100px 0;
+	display: block;
+}
+#section-3 .about-itens{
+	text-align: center;
+	color: #234c5a;
+}
+#section-3 .about-itens img{
+	margin-bottom: 20px;
+	max-width: 70px;
+	max-height: 70px;
+}
+#section-4{
+
+}
+#section-4 h3{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+#section-5{
+	padding: 100px 0;
+	display: block;
+}
+#section-5 .board{
+	background: #00a769;
+	box-sizing: border-box;
+	padding: 30px 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+#section-5 .board{
+	text-align: center;
+	color: #fff;
+}
+#section-5 .board h2{
+	font-size: 22px;
+	text-transform: uppercase;
+}
+#section-5 .board img{
+	max-width: 75px;
+	margin-bottom: 15px;
+}
+#section-6{
+	padding: 100px 0;
+	display: block;
+	background: #234c5a;
+}
+#section-6 label{
+	height: 45px;
+}
+#section-6 label#message{
+	height: auto;
+}
+#section-6 input, #section-6 textarea{
+	width: 100%;
+	color: #000;
+}
+#section-6 textarea{
+	margin-bottom: 6px;
+}
+#section-6 span{
+	color: #fff;
+	display: inline-block;
+	min-width: 80px;
+	vertical-align: text-top;
+}
+#section-6 .wpcf7-form-control-wrap{
+	width: 80%;
+}
+#section-6 label#campos{
+	color: #fff;
+	display: block;
+	float: left;
+	margin: 0 30px 0 80px;
+}
+#section-6 input[type=submit]{
+	border: none;
+	background: #2ea56c;
+	float: right;
+	width: auto;
+	margin-right: 35px;
+	padding: 10px 30px;
+	color: #fff;
+	font-weight: bold;
+}
+.wpcf7-validation-errors{
+	border: none;
+	background: #f7e700;
+	font-weight: bold;
+}
+.wpcf7-mail-sent-ng{
+	border: none;
+	background: #ff0000;
+	font-weight: bold;
+	color: #fff;
+}
+#section-6 h2{
+	color: #fff;
+	font-size: 22px;
+	text-align: center;
+}
+#section-6 #form-subtitle{
+	color: #00a769;
+	text-align: center;
+}
+#section-6 #fone-icon{
+	display: block;
+	text-align: center;
+	margin: 15px auto;
+}
+#section-6 .fone-number, .footer .fone-number{
+	text-align: center;
+	color: #fff;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+#section-6 .fone-number span, .footer .fone-number span{
+	font-weight: normal;
+	min-width: auto;
+	font-size: 12px;
+	vertical-align: baseline;
+	margin-right: 5px;
+}
+.footer{
+	border-top: 5px solid #fff;
+	background: #234c5a;
+	padding: 15px 0 0;
+}
+.footer .fone-number{
+	text-align: left;
+}
+.footer img{
+	width: 180px;
+}
+
+@media only screen and (max-device-width: 480px) {
+	#section-6 .wpcf7-form-control-wrap{
+		width: 100%;
+	}
+	#section-6 label#campos{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#section-6 input[type=submit]{
+		margin-right: 0;
+		width: 100%;
+	}
+	.submit-container{
+		text-align: center;
+	}
+}

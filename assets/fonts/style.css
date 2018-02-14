@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'latohairline';
+	src: url('Lato-Hairline.woff2') format('woff2'),
+		 url('Lato-Hairline.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'latohairline_italic';
+	src: url('Lato-HairlineItalic.woff2') format('woff2'),
+		 url('Lato-HairlineItalic.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'latolight';
+	src: url('Lato-Light.woff2') format('woff2'),
+		 url('Lato-Light.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'latolight_italic';
+	src: url('Lato-LightItalic.woff2') format('woff2'),
+		 url('Lato-LightItalic.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'latoregular';
+	src: url('Lato-Regular.woff2') format('woff2'),
+		 url('Lato-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
